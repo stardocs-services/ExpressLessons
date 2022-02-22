@@ -1,0 +1,15 @@
+To create a new git repo
+Create git repo in github first
+echo "# ExpressLessons" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add ExpressLessons <git url>
+git push -u ExpressLessons master
+
+Subsequent commits and push
+git add -A
+git commit -m "next commit"
+git branch -M master
+git push -u ExpressLessons master
